@@ -80,4 +80,7 @@ protected void renderTemplate(HttpExchange exchange, String templateFile, Object
         // которую freemarker будет использовать для наполнения шаблона
         return new SampleDataModel();
     }
+    private User getUserDataModel(User user){
+        return user;
+    }
 }
